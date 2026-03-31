@@ -148,6 +148,8 @@ These are not passive config toggles. The source uses them to gate lazy `require
 
 ### 5. Native Client Attestation
 
+Dedicated deep-dive: [ATTESTATION.md](ATTESTATION.md)
+
 **`src/constants/system.ts`** — Claude Code includes a native attestation mechanism:
 
 Source refs: `src/constants/system.ts` (`getAttributionHeader`).
