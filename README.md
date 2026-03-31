@@ -277,6 +277,8 @@ Interesting extras in the same file:
 
 ### 11. Internal Analytics ("Tengu")
 
+Dedicated deep-dive: [TENGU.md](TENGU.md)
+
 All analytics events are prefixed with `tengu_` — presumably an internal codename for the Claude Code telemetry system. GrowthBook feature flags also follow this pattern (e.g., `tengu_attribution_header`, `tengu_onyx_plover`, `tengu_cobalt_lantern`, `tengu_hive_evidence`, `tengu_terminal_panel`).
 
 Source refs: `src/services/analytics/datadog.ts`, `src/services/analytics/firstPartyEventLogger.ts`, `src/services/analytics/sinkKillswitch.ts`, `src/services/analytics/growthbook.ts`, `src/constants/keys.ts`.
