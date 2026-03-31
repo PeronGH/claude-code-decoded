@@ -341,3 +341,23 @@ Source refs: `src/constants/prompts.ts`, `src/query.ts`.
 - "False-claims mitigation for Capybara v8 (29-30% FC rate vs v4's 16.7%)" — internal quality metrics
 - "Remove this section when we launch numbat" — another internal codename
 - "Tengu" — the Claude Code project's internal codename (used in all analytics events)
+
+### 16. `/buddy` — April 1 Easter Egg Turned Full Companion System
+
+Dedicated deep-dive: [BUDDY.md](BUDDY.md)
+
+**`src/buddy/useBuddyNotification.tsx`** — Claude Code contains a hidden `/buddy` companion feature with an explicit teaser window:
+
+- Hardcoded teaser dates: **April 1-7, 2026**
+- Uses **local time, not UTC** for a rolling timezone-based launch
+- Comments explicitly mention **"sustained Twitter buzz"** and **"gentler on soul-gen load"**
+- The teaser is a rainbow `/buddy` startup notification for users without a companion yet
+- The command stays live after the teaser window
+
+The surrounding `src/buddy/` code shows this was not a one-line joke:
+
+- deterministic pet generation from user identity
+- rarity/species/hat/shiny/stats game logic
+- a stored **model-generated soul**
+- animated sprites, reactions, and `/buddy pet` hearts
+- prompt/model-context integration via `companion_intro`
