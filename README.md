@@ -327,6 +327,8 @@ Source refs: `src/tools/BashTool/bashSecurity.ts`.
 
 ### 15. The "Capybara" Model Codename
 
+Dedicated deep-dive: [CAPYBARA.md](CAPYBARA.md)
+
 Comments throughout reference model launches with `@[MODEL LAUNCH]` markers. Comments mention:
 
 Source refs: `src/constants/prompts.ts`, `src/query.ts`.
